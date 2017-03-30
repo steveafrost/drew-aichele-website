@@ -5,6 +5,9 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :directory_indexes
+activate :sprockets
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -14,6 +17,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 set :url_root, 'https://drewaichele.com'
+set :relative_links, true
 activate :search_engine_sitemap
 
 # Development Configuration
