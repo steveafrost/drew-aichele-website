@@ -13,7 +13,22 @@
   </head>
   <body>
     <div class="container">
+      <nav>
+        <div class="row">
+            <div class="column">DA</div>
+            <div class="column column-50 column-offset-25">
+              <li><%= link_to 'About', 'about' %></li>
+              <li><%= link_to 'Social Work', 'social-work' %></li>
+              <li><%= link_to 'Culinary', 'culinary' %></li>
+              <li><%= link_to 'Performance', 'performance' %></li>
+              <li><%= link_to 'Contact', 'contact' %></li>
+            </div>
+        </div>
+      </nav>
       <%= yield %>
+      <footer>
+        Crafted by <a href="https://steveafrost.com">Steve Frost</a> | Copyright 2017
+      </footer>
     </div>
   </body>
 </html>
