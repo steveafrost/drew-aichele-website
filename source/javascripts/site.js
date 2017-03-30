@@ -1,4 +1,3 @@
-// This is where it all goes :)
-
-//= require '_jquery'
-//= require '_modernizer'
+//= require 'jquery'
+//= require 'modernizer'
+//= require 'responsiveslides'
