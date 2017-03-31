@@ -12,20 +12,30 @@
     <%= javascript_include_tag "site" %>
   </head>
   <body>
-    <div class="container">
-      <nav>
-        <div class="row">
-            <div class="column"><h3><%= link_to 'Drew Aichele', '/' %></h3></div>
-            <div class="column column-50 column-offset-25">
-              <li><%= link_to 'About', 'about' %></li>
-              <li><%= link_to 'Social Work', 'social-work' %></li>
-              <li><%= link_to 'Culinary', 'culinary' %></li>
-              <li><%= link_to 'Performance', 'performance' %></li>
-              <li><%= link_to 'Contact', 'contact' %></li>
-            </div>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Drew Aichele</a>
         </div>
-      </nav>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to 'About', 'about' %></li>
+            <li><%= link_to 'Culinary', 'culinary' %></li>
+            <li><%= link_to 'Social Work', 'social-work' %></li>
+            <li><%= link_to 'Performance', 'performance' %></li>
+            <li><%= link_to 'Contact', 'contact' %></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
+    <div class="container">
       <%= yield %>
 
     </div>

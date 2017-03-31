@@ -1,22 +1,19 @@
 @import "normalize";
-@import "milligram";
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
   background-color: #FFFFFF;
   color: #000000;
+  font-family: 'Raleway', sans-serif;
 }
 
-.container {
-  padding-bottom: 100px;
+.navbar-default {
+  background-color: transparent;
 }
 
-nav {
-  padding-top: 1em;
-}
-
-nav li {
-  display: inline;
-  margin-left: 10px;
+.navbar-default .navbar-nav>li>a {
+  color: #4dca9b;
 }
 
 a {
@@ -79,7 +76,7 @@ footer {
   text-decoration: none;
   height: 61px;
   width: 38px;
-  background: transparent url("./assets/images/arrows.gif") no-repeat left top;
+  background: transparent url("./images/arrows.gif") no-repeat left top;
   margin-top: -45px;
   }
 
