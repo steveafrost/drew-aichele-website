@@ -2,3 +2,4 @@
 //= require 'modernizer'
 //= require 'bootstrap'
 //= require 'carousel'
+//= require 'angular-devise'
