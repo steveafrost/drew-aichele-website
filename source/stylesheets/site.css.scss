@@ -2,14 +2,16 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+/* Background pattern from Subtle Patterns */
+
 body {
-  background-color: #FFFFFF;
+  background: url('../images/crossword.png');
   color: #000000;
   font-family: 'Raleway', sans-serif;
 }
 
 .navbar-default {
-  background-color: transparent;
+  background-color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -70,7 +72,6 @@ body {
   width: 100%;
   height: 40px;
   padding-top: 10px;
-  background-color: #FFFFFF;
   a {
     color: #000000;
   }
