@@ -8,6 +8,7 @@ body {
   background: url('../images/crossword.png');
   color: #000000;
   font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
 
 .navbar-default {
@@ -15,11 +16,12 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #4dca9b;
+  color: #0099cc;
+  font-size: 16px;
 }
 
 a {
-  color: #4dca9b;
+  color: #0099cc;
   cursor: pointer;
 }
 
