@@ -9,9 +9,6 @@ body {
   font-size: 20px;
 }
 
-.carousel {
-  margin-bottom: 25px;
-}
 
 .navbar-default {
   background-color: #FFFFFF;
@@ -56,8 +53,9 @@ form {
   padding: 100px;
 }
 
-.item > img {
+img {
   border-radius: 5px;
+  margin: 0 auto 15px auto;
 }
 
 blockquote {
