@@ -1,3 +1,16 @@
+# SVG Helper
+helpers do
+  def inline_svg name
+    root = Middleman::Application.root
+    file_path = "#{root}/source/images/#{name}.svg"
+    if File.exists?(file_path)
+      File.read(file_path)
+    else
+      "<span class='icon-error'>Icon #{name} not found</span>"
+    end
+  end
+end
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
