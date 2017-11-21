@@ -32,6 +32,7 @@ page '/*.txt', layout: false
 set :url_root, 'https://drewaichele.com'
 set :relative_links, true
 activate :search_engine_sitemap
+activate :dato, live_reload: true
 
 # Development Configuration
 configure :development do
